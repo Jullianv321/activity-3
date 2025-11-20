@@ -6,38 +6,108 @@
     <link rel="stylesheet" href="style.css">
     <title>My Hobbies</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            margin: 0;
-            padding: 20px;
-        }
+      <style>
 
-        h1 {
-            text-align: center;
-            color: #333;
-        }
+    body {
+      background: linear-gradient(135deg, #1a1a1a, #282828); 
+      color: #D4E157; 
+      font-family: 'Roboto Mono', monospace; 
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
 
-        .hobby-section {
-            background: white;
-            padding: 20px;
-            margin: 15px 0;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+    .about-header {
+      color: #00E5FF; 
+      font-size: 2.5em;
+      letter-spacing: 2px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      text-transform: uppercase;
+      text-align: center; 
+    }
 
-        h2 {
-            color: #4a4a4a;
-        }
+    h2 {
+      background: linear-gradient(135deg, #FF4081, #00E5FF); 
+      color: transparent;
+      background-clip: text;
+      font-size: 2em;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
 
-        img {
-            width: 100%;
-            max-width: 400px;
-            border-radius: 8px;
-            margin-top: 10px;
-        }
-    </style>
+    p {
+      color: #B2FF59; 
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+    }
+
+    a {
+      color: #00E5FF; 
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+    }
+
+    a:hover {
+      color: #FF4081; 
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 30px;
+      color: #B2FF59; 
+      font-size: 0.9em;
+      text-transform: uppercase;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+      text-align: center; 
+    }
+
+    ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    ul li a {
+      color: #00E5FF;
+      font-size: 1.2em;
+      transition: color 0.3s ease;
+    }
+
+    ul li a:hover {
+      color: #FF4081;
+    }
+
+    @media screen and (max-width: 768px) {
+      .about-header {
+        font-size: 2em;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+
+      p {
+        font-size: 1em;
+      }
+
+      ul li {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -69,4 +139,5 @@
         <p>
             In my free time, I enjoy playing Dota 2. 
             It’s a fun and competitive
+
 
